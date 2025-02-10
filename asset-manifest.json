@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/stripe-take-home-project/static/css/main.5b7a168b.css",
-    "main.js": "/stripe-take-home-project/static/js/main.2e2731b9.js",
+    "main.js": "/stripe-take-home-project/static/js/main.bc92569e.js",
     "index.html": "/stripe-take-home-project/index.html",
     "main.5b7a168b.css.map": "/stripe-take-home-project/static/css/main.5b7a168b.css.map",
-    "main.2e2731b9.js.map": "/stripe-take-home-project/static/js/main.2e2731b9.js.map"
+    "main.bc92569e.js.map": "/stripe-take-home-project/static/js/main.bc92569e.js.map"
   },
   "entrypoints": [
     "static/css/main.5b7a168b.css",
-    "static/js/main.2e2731b9.js"
+    "static/js/main.bc92569e.js"
   ]
 }
