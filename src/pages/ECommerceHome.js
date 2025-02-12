@@ -3,9 +3,9 @@ import { Button } from "../components/Button";
 
 export function ECommerceHome({ cart, addToCart }) {
     const products = [
-      { id: 1, name: "Product 1", price: 19.99, description: "This is a great product.", image: "https://via.placeholder.com/300?text=Product+1" },
-      { id: 2, name: "Product 2", price: 29.99, description: "This is another great product.", image: "https://via.placeholder.com/300?text=Product+2" },
-      { id: 3, name: "Product 3", price: 39.99, description: "This is the best product.", image: "https://via.placeholder.com/300?text=Product+3" },
+      { id: 1, name: "Product 1", price: 19.99, description: "This is a great product.", image: null },
+      { id: 2, name: "Product 2", price: 29.99, description: "This is another great product.", image: null },
+      { id: 3, name: "Product 3", price: 39.99, description: "This is the best product.", image: null },
     ];
   
     return (
