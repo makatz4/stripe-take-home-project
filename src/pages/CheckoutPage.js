@@ -3,7 +3,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import CheckoutForm from "../components/CheckoutForm";
 
-const stripePromise = loadStripe(process.env.STRIPE_PUBLIC_KEY);
+const stripePromise = loadStripe("pk_test_51QpGGfRqHKFe5Q3yPPTOVXN5DP4l3unN8WcSmz0f1zerUfDs3hN6W4EFg1F0kRQalXXkc7E8fKael8ToQIbO29vL00YxMz1UPB");
 
 export function CheckoutPage({ cart }) {
   const [clientSecret, setClientSecret] = useState('');
