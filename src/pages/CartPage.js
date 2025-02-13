@@ -27,11 +27,7 @@ export function CartPage({ cart }) {
       )}
       <div className="mt-6">
         <Link to={isCartEmpty ? "#" : "/checkout"}>
-          <Button 
-            variant="primary" 
-            className={`w-full ${isCartEmpty ? "bg-gray-400 cursor-not-allowed hover:bg-gray-400" : ""}`} 
-            disabled={isCartEmpty}
-          >
+          <Button variant="primary" className={`w-full`} disabled={isCartEmpty}>
             Proceed to Checkout
           </Button>
         </Link>
