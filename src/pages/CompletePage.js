@@ -22,8 +22,8 @@ const STATUS_CONTENT_MAP = {
     icon: ErrorIcon,
   },
   default: {
-    text: "Something went wrong, please try again.",
-    icon: ErrorIcon,
+    text: "Your payment is processing.",
+    icon: InfoIcon,
   }
 };
 
