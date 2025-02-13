@@ -2,6 +2,13 @@
     "rewrites": [
       { "source": "/stripe-take-home-project/(.*)", "destination": "/$1" },
       { "source": "/manifest.json", "destination": "/stripe-take-home-project/manifest.json" }
+    ],
+    "routes": [
+        {
+        "src": "/stripe-take-home-project/(.*)",
+        "dest": "/index.html"
+        }
     ]
-  }
+      
+}
   
