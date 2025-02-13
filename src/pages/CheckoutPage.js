@@ -21,7 +21,14 @@ export function CheckoutPage({ cart }) {
   }, []);
 
   if (!clientSecret) {
-    return <div>Loading payment details...</div>;
+    return (
+      <div className="flex flex-col items-center justify-center h-screen">
+        <div className="text-center">
+          Loading payment details...
+        </div>
+        <img width="100" height="100" src="https://img.icons8.com/bubbles/100/synchronize.png" alt="synchronize"/>
+      </div>
+    );
   } 
   
     return (

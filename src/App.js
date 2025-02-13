@@ -19,8 +19,8 @@ export default function App() {
   return (
     <Elements stripe={stripePromise}>
       <Router basename="/stripe-take-home-project">
-        <div className="min-h-screen bg-gray-100">
-          <header className="bg-white shadow">
+        <div className="min-h-screen bg-violet-200">
+          <header className="bg-violet-100 shadow">
             <div className="container mx-auto py-4 px-6 flex justify-between items-center">
               <h1 className="text-2xl font-bold">
                 <span className="flex flex-row items-center">
