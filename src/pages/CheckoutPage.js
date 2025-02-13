@@ -11,7 +11,7 @@ export function CheckoutPage({ cart }) {
   
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
-    fetch("https://stripe-take-home-project.vercel.app/api/payment", {
+    fetch("https://stripe-take-home-project-vzyt.vercel.app/api/payment", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ items: [{ id: "xl-tshirt", amount: 1000 }] }),
