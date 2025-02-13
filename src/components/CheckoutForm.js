@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-import {
-  PaymentElement,
-  useStripe,
-  useElements
-} from "@stripe/react-stripe-js";
+import { PaymentElement, useStripe, useElements } from "@stripe/react-stripe-js";
+import { Button } from "./Button";
 
 export default function CheckoutForm() {
   const stripe = useStripe();
@@ -27,7 +24,7 @@ export default function CheckoutForm() {
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: "http://localhost:3000/complete",
+        return_url: "https://makatz4.github.io/stripe-take-home-project/complete",
       },
     });
 
@@ -53,11 +50,11 @@ export default function CheckoutForm() {
     <form id="payment-form" onSubmit={handleSubmit}>
 
       <PaymentElement id="payment-element" options={paymentElementOptions} />
-      <button disabled={isLoading || !stripe || !elements} id="submit">
+      <Button disabled={isLoading || !stripe || !elements} id="submit" className="my-4">
         <span id="button-text">
           {isLoading ? <div className="spinner" id="spinner"></div> : "Pay now"}
         </span>
-      </button>
+      </Button>
       {/* Show any error or success messages */}
       {message && <div id="payment-message">{message}</div>}
     </form>
