@@ -24,7 +24,7 @@ export default function CheckoutForm() {
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: "http://localhost:3000/complete",
+        return_url: "https://stripe-take-home-project-vzyt.vercel.app/complete", //change to localhost:3000/complete for local testing
       },
     });
 
