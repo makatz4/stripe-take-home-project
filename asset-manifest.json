@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/stripe-take-home-project/static/css/main.1982c0d6.css",
-    "main.js": "/stripe-take-home-project/static/js/main.f0107aea.js",
+    "main.css": "/stripe-take-home-project/static/css/main.8ef148c1.css",
+    "main.js": "/stripe-take-home-project/static/js/main.a93a5c99.js",
+    "static/media/green-shirt.png": "/stripe-take-home-project/static/media/green-shirt.3c6150d479d3c2331022.png",
+    "static/media/jean-jacket.jpg": "/stripe-take-home-project/static/media/jean-jacket.cadd244765029fd87aac.jpg",
+    "static/media/sunhat.jpg": "/stripe-take-home-project/static/media/sunhat.0217c459bcb6a7e57c2b.jpg",
     "index.html": "/stripe-take-home-project/index.html",
-    "main.1982c0d6.css.map": "/stripe-take-home-project/static/css/main.1982c0d6.css.map",
-    "main.f0107aea.js.map": "/stripe-take-home-project/static/js/main.f0107aea.js.map"
+    "main.8ef148c1.css.map": "/stripe-take-home-project/static/css/main.8ef148c1.css.map",
+    "main.a93a5c99.js.map": "/stripe-take-home-project/static/js/main.a93a5c99.js.map"
   },
   "entrypoints": [
-    "static/css/main.1982c0d6.css",
-    "static/js/main.f0107aea.js"
+    "static/css/main.8ef148c1.css",
+    "static/js/main.a93a5c99.js"
   ]
 }
