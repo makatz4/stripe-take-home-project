@@ -22,10 +22,20 @@ export default function App() {
         <div className="min-h-screen bg-gray-100">
           <header className="bg-white shadow">
             <div className="container mx-auto py-4 px-6 flex justify-between items-center">
-              <h1 className="text-2xl font-bold">Cozy Threads</h1>
-              <nav>
+              <h1 className="text-2xl font-bold">
+                <span className="flex flex-row items-center">
+                <img width="32" height="32" src="https://img.icons8.com/cotton/128/needle--v1.png" alt="needle--v1"/>
+                  Cozy Threads
+                </span>
+              </h1>
+              <nav className="flex flex-row items-center">
                 <Link to="/" className="text-lg font-semibold mx-2">Home</Link>
-                <Link to="/cart" className="text-lg font-semibold mx-2">Cart ({cart.length})</Link>
+                <Link to="/cart" className="text-lg font-semibold mx-2">
+                  <span className="flex flex-row items-center"> 
+                    <img width="30" height="30" src="https://img.icons8.com/sf-regular/48/shopping-cart.png" alt="shopping-cart"/>
+                    ({cart.length})
+                  </span>
+                 </Link>
               </nav>
             </div>
           </header>

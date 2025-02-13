@@ -7,14 +7,14 @@ const stripePromise = loadStripe("pk_test_51QpGGfRqHKFe5Q3yPPTOVXN5DP4l3unN8WcSm
 
 export function CheckoutPage({ cart }) {
   const [clientSecret, setClientSecret] = useState('');
-  const totalAmount = (cart.reduce((total, item) => total + item.price, 0) * 100).toFixed(0); // Convert to cents
+  const totalAmount = (cart.reduce((total, item) => total + item.price, 0));
   
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
     fetch("https://stripe-take-home-project-vzyt.vercel.app/api/payment", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ items: [{ id: "xl-tshirt", amount: 1000 }] }),
+      body: JSON.stringify({ items: [{ id: "xl-tshirt", amount: 1000 }] }), //FIXME
     })
       .then((res) => res.json())
       .then((data) => setClientSecret(data.clientSecret));

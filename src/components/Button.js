@@ -1,7 +1,7 @@
 export function Button({ children, variant, className, ...props }) {
     const baseStyle = "rounded-lg px-4 py-2 font-semibold focus:outline-none";
     const variants = {
-      primary: "bg-blue-600 text-white hover:bg-blue-700",
+      primary: "bg-neutral-200 text-black hover:bg-neutral-300",
       secondary: "bg-gray-200 text-gray-800 hover:bg-gray-300",
     };
   

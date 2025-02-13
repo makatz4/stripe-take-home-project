@@ -15,7 +15,7 @@ export function CartPage({ cart }) {
             <div key={index} className="p-4 border rounded bg-white shadow">
               <h3 className="text-lg font-bold">{item.name}</h3>
               <p className="text-sm text-gray-600">{item.description}</p>
-              <p className="text-lg font-semibold mt-2">${item.price.toFixed(2)}</p>
+              <p className="text-lg font-semibold mt-2">${item.price}</p>
             </div>
           ))}
         </div>
