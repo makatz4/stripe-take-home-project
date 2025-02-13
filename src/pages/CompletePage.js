@@ -45,7 +45,6 @@ export default function CompletePage() {
   const stripe = useStripe();
 
   const [status, setStatus] = useState("default");
-  const [intentId, setIntentId] = useState(null);
 
   useEffect(() => {
     if (!stripe) {
@@ -66,7 +65,6 @@ export default function CompletePage() {
       }
 
       setStatus(paymentIntent.status);
-      setIntentId(paymentIntent.id);
     });
   }, [stripe]);
 

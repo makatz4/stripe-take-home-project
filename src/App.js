@@ -46,12 +46,6 @@ export default function App() {
             <Route path="/checkout" element={<CheckoutPage cart={cart} />} />
             <Route path="/complete" element={<CompletePage />} />
           </Routes>
-
-          <footer className="fixed bottom-0 w-full bg-gray-800 text-white py-4">
-            <div className="container mx-auto text-center">
-              <p>&copy; 2025 Cozy Threads. All rights reserved.</p>
-            </div>
-          </footer>
         </div>
       </Router>
     </Elements>

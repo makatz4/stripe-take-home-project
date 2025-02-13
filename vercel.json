@@ -1,7 +1,7 @@
 {
     "rewrites": [
-        { "source": "/manifest.json", "destination": "/public/manifest.json" },
-        { "source": "/(.*)", "destination": "/" }
+      { "source": "/stripe-take-home-project/(.*)", "destination": "/$1" },
+      { "source": "/manifest.json", "destination": "/stripe-take-home-project/manifest.json" }
     ]
-}
+  }
   
